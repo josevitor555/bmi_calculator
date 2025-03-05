@@ -1,0 +1,75 @@
+#result-container {
+    text-align: center;
+}
+
+#bmi-number {
+    font-size: 24px;
+    margin-bottom: .6rem;
+}
+
+#bmi-info {
+    font-size: 16px;
+    color: #1d1d1d;
+    margin-bottom: .8rem;
+}
+
+#result-container h3 {
+    margin-top: 1rem;
+    color: #1d1d1d;
+    align-self: flex-start;
+}
+
+#result-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#bmi-table {
+    margin: 1.5rem 0;
+    font-size: 14px;
+    color: #1d1d1d;
+}
+
+.table-header {
+    font-weight: semi-bold;
+    font-size: 16px;
+    color: #1d1d1d;
+    font-weight: bold;
+}
+
+.table-header, .table-data {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: .8rem;
+    paddin-bottom: .8rem;
+    border-bottom: 1px solid #1d1d1d;
+}
+
+.table-header h4, .table-data p {
+    flex: 1;
+}
+
+.table-header h4:nth-child(3), .table-data p:nth-child(3) {
+    line-height: 28px;
+    max-width: 80px;
+}
+
+#back-btn {
+    align-self: flex-start;
+}
+
+.good {
+    color: #12db34;
+}
+
+.low {
+    color: #dbce12;
+}
+  
+.medium {
+    color: #db6212;
+}
+  
+.high {
+    color: #db1912;
+}

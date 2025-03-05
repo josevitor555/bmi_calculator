@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    box-sizin: border-box;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('./fonts/Inter/static/Inter_18pt-Light.ttf') format('truetype');
+}
+
+body {
+    font-family: 'Inter';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #1d1d1d;
+    background: #fafafa;
+}

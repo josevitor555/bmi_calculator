@@ -1,0 +1,4 @@
+password: VL6pAueO4QC1Z2Eh
+username: jv1054596
+
+Connection String: mongodb+srv://jv1054596:VL6pAueO4QC1Z2Eh@bmidatabase.kq4xp.mongodb.net/?retryWrites=true&w=majority&appName=BMIDATABASE

@@ -1,0 +1,49 @@
+#bmi__calculator h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #1d1d1d;
+    font-size: 22px;
+}
+
+.form-inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-bottom: 1rem;
+}
+
+.form-control label {
+    font-wight: bold;
+    margin-bottom: .6rem;
+    color: #1d1d1d;
+    font-size: 18px;
+}
+
+.form-control input {
+    padding: 1rem .5rem;
+    border: 1px solid #1d1d1d;
+    outline: none;
+    color: #1d1d1d;
+    border-radius: 12px;
+}
+
+.action-control {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.action-control button#calc-btn {
+    font-size: 18px;
+}
+
+.action-control button#clear-btn {
+    font-size: 18px;
+}
