@@ -1,25 +1,25 @@
-### Calculadora de IMC (BMI Calculator)
+### BMI Calculator
 
 #### Front-End:
-Principais Linguagens
+Main Languages
 HTML5 (Virtual DOM)
 CSS3
 JavaScript (Back-End)
 
-#### Frameworks Front-End:
+#### Front-End Frameworks:
 Vitejs
 
-#### Framework CSS utilizado:
+#### CSS Framework used:
 TailwindCSS (V4)
-Usado como um dos requisitos para o Shadcn UI
+Used as one of the requirements for Shadcn UI
 
-#### Linguagem de programação estática (Super-set JavaScript)
-TypeScript para Tipagem estática das variáveis
-Usada como um dos requisitos para o Shadcn UI
+#### Static programming language (Super-set JavaScript)
+TypeScript for static typing of variables
+Used as one of the requirements for Shadcn UI
 
 #### Back-End:
-Ambiente de Execução JavaScript (Server-side)
+JavaScript Execution Environment (Server-side)
 Nodejs/Express (Back-End)
 
-MongoDB (Banco de dados não Relacional)
-Usado para armazenar os dados por meio de orientação a documentos (JSON)
+MongoDB (Non-relational database)
+Used to store data through document orientation (JSON)
