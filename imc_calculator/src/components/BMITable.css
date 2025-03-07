@@ -47,6 +47,7 @@
 
 .table-header h4, .table-data p {
     flex: 1;
+    font-size: 16px;
 }
 
 .table-header h4:nth-child(3), .table-data p:nth-child(3) {
@@ -58,18 +59,19 @@
     align-self: flex-start;
 }
 
-.good {
+.Bom {
     color: #12db34;
+    font-size: 24px;
 }
 
-.low {
+.Baixo {
     color: #dbce12;
 }
   
-.medium {
+.Medio {
     color: #db6212;
 }
   
-.high {
+.Alto {
     color: #db1912;
 }

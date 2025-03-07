@@ -16,6 +16,7 @@ import { db } from "./connect.js";
 const app = express();
 const PORT = process.env.PORT;
 
+// Connect Front-end with Back-End using cors
 app.use(cors(
     {
         origin: "http://localhost:5173"

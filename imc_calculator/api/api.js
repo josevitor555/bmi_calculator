@@ -11,6 +11,3 @@ export const fecthDataTable = async () => {
         console.error(`Error fetching data: ${error}`);
     }
 }
-
-// const responseData = await axios.get(`${URL}/bmi-data`);
-// export const responseDataTable = responseData.data;

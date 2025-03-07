@@ -23,20 +23,21 @@ interface BMITableProps {
 const BMITable: React.FC<BMITableProps> = ({ data, bmi, info, infoClass, resetCalc }) => {
   return (
     <div id='result-container'>
-      <p id='bmi-number'>
-        Your BMI: <span className={infoClass}> {bmi} </span>
-      </p>
-      <p id="bmi-info">
-        Your Current Situation - <span className={infoClass}> {info} </span>
-      </p>
+      <div id='bmi-number'>
+        Seu IMC: <span className={infoClass}> {bmi} </span>
+      </div>
 
-      <h3 className='text-base'> Check the classifications </h3>
+      <div id="bmi-info">
+        <span className='text-2xl'> Sua situação Atual </span> - <span className={`${infoClass}`}> {info} </span>
+      </div>
+
+      <div className='text-base'> Verifique as classificações </div>
 
       <div id="bmi-table">
         <div className="table-header">
-          <h4> BMI </h4>
-          <h4> Classification </h4>
-          <h4> Obesity </h4>
+          <h4> IMC </h4>
+          <h4> Classificação </h4>
+          <h4> Obesidade </h4>
         </div>
 
         {data.map((item) => (
@@ -48,7 +49,7 @@ const BMITable: React.FC<BMITableProps> = ({ data, bmi, info, infoClass, resetCa
         ))}
       </div>
 
-      <Button className="cursor-pointer" id="back-btn" onClick={resetCalc}> Back </Button>
+      <Button className="cursor-pointer" id="back-btn" onClick={resetCalc}> Voltar </Button>
     </div>
   )
 }

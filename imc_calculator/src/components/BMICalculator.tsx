@@ -35,26 +35,26 @@ const ImcCalculator: React.FC<ImcCalculatorProps> = ({ calcBmi }) => {
 
     return (
         <div id='bmi__calculator'>
-            <h2 className="text-2xl"> Body Mass Index Calculator </h2>
+            <h2 className="text-2xl"> Calculadora de IMC </h2>
 
             <form action="" id="bmi-form">
                 <div className="form-inputs">
                     <div className="form-control">
-                        <label htmlFor="height"> Your Height </label>
-                        <Input type="text" name='height' id='height' placeholder='Your Height Here' onChange={(e) => handleHeightChange(e)} value={height} />
+                        <label htmlFor="height"> Sua Altura </label>
+                        <Input type="text" name='height' id='height' placeholder='Sua Altura Aqui' onChange={(e) => handleHeightChange(e)} value={height} />
                     </div>
                     <div className="form-control">
-                        <label htmlFor="weight"> Your weight </label>
-                        <Input type="text" name="weight" id="weight" placeholder="Your Weight Here" onChange={(e) => handleWeightChange(e)} value={weight} />
+                        <label htmlFor="weight"> Seu Peso </label>
+                        <Input type="text" name="weight" id="weight" placeholder="Seu Peso Aqui" onChange={(e) => handleWeightChange(e)} value={weight} />
                     </div>
                 </div>
 
                 <div className="action-control">
                     <Button className="cursor-pointer" variant={"default"} id="calc-btn" onClick={(e: MouseEvent<HTMLButtonElement>) => calcBmi(e, height, weight)}>
-                        Calculate
+                        Calcular
                     </Button>
                     <Button className="cursor-pointer" variant={"ghost"} id="clear-btn" onClick={clearForm}>
-                        Clear
+                        Limpar
                     </Button>
                 </div>
             </form>
